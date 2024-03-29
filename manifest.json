@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Course Catalog Extension",
+    "version": "1.0",
+    "description": "Enhance the browsing experience.",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
