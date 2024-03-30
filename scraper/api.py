@@ -10,7 +10,7 @@ BASE_LINK = "https://pitcsprd.csps.pitt.edu/psc/pitcsprd/EMPLOYEE/SA/s/WEBLIB_HC
 def get_courses() -> dict:
     # req = requests.get(BASE_LINK + "SubjectCourses" + BASE_QUERIES)
     req = None
-    with open("courses.json") as f:
+    with open("courses_engcmp.json") as f:
         req = f.readlines()
     req = "".join(req)
     # {

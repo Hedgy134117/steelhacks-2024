@@ -1,0 +1,23 @@
+{
+    "ARABIC 0101": "None",
+    "ARABIC 0102": "['LING 0141', 'ARABIC 0101']",
+    "ARABIC 0103": "['LING 0142', 'ARABIC 0102']",
+    "ARABIC 0104": "['LING 0143', 'ARABIC 0103']",
+    "ARABIC 0105": "['LING 0144', 'ARABIC 0104']",
+    "ARABIC 0106": "['LING 0145', 'ARABIC 0105']",
+    "ARABIC 0121": "None",
+    "ARABIC 0122": "['LING 0151', 'ARABIC 0121']",
+    "ARABIC 0123": "['LING 0152', 'ARABIC 0122']",
+    "ARABIC 0124": "['LING 0153', 'ARABIC 0123']",
+    "ARABIC 0125": "['LING 0154', 'ARABIC 0124']",
+    "ARABIC 0126": "['LING 0155', 'ARABIC 0125']",
+    "ARABIC 1115": "['LING 0143', '0153', 'ARABIC 0103', 'ARABIC 0123']",
+    "ARABIC 1615": "None",
+    "ARABIC 1620": "None",
+    "ARABIC 1635": "None",
+    "ARABIC 1645": "None",
+    "ARABIC 1705": "['LING 1000', 'CSD 1020']",
+    "ARABIC 1901": "None",
+    "ARABIC 1905": "None",
+    "ARABIC 1909": "['LING 0133', '0143', '0153']"
+}

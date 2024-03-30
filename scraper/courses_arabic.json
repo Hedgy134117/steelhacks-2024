@@ -1,0 +1,551 @@
+{
+    "courses": [
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0101",
+            "descr": "MODERN STANDARD ARABIC 1/EGYPTIAN 1",
+            "crse_id": "182792",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0102",
+            "descr": "MODERN STANDARD ARABIC 2/EGYPTIAN 2",
+            "crse_id": "183643",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0103",
+            "descr": "MODERN STANDARD ARABIC 3/EGYPTIAN 3",
+            "crse_id": "183628",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0104",
+            "descr": "MODERN STANDARD ARABIC 4/EGYPTIAN 4",
+            "crse_id": "183629",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0105",
+            "descr": "MODERN STANDARD ARABIC 5/EGYPTIAN 5",
+            "crse_id": "183630",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-04-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0106",
+            "descr": "MODERN STANDARD ARABIC 6/EGYPTIAN 6",
+            "crse_id": "183631",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-04-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0121",
+            "descr": "MODERN STANDARD ARABIC 1/LEVANTINE 1",
+            "crse_id": "182794",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0122",
+            "descr": "MODERN STANDARD ARABIC 2/LEVANTINE 2",
+            "crse_id": "183632",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0123",
+            "descr": "MODERN STANDARD ARABIC 3/LEVANTINE 3",
+            "crse_id": "183633",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0124",
+            "descr": "MODERN STANDARD ARABIC 4/LEVANTINE 4",
+            "crse_id": "183635",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0125",
+            "descr": "MODERN STANDARD ARABIC 5/LEVANTINE 5",
+            "crse_id": "183636",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-04-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0126",
+            "descr": "MODERN STANDARD ARABIC 6/LEVANTINE 6",
+            "crse_id": "183638",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-04-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1115",
+            "descr": "READINGS IN ARABIC",
+            "crse_id": "178244",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1615",
+            "descr": "ARABIC LIFE AND THOUGHT",
+            "crse_id": "178243",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1620",
+            "descr": "ARAB CINEMA",
+            "crse_id": "188511",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1635",
+            "descr": "INTRODUCTION TO MODERN ARABIC LITERATURE",
+            "crse_id": "176317",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1645",
+            "descr": "GLOBAL ISSUES IN LITERATURE",
+            "crse_id": "191397",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1705",
+            "descr": "INTRODUCTION TO ARABIC LINGUISTICS",
+            "crse_id": "187732",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1901",
+            "descr": "INDEPENDENT STUDY",
+            "crse_id": "187387",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1905",
+            "descr": "UNDERGRADUATE TEACHING ASSISTANT IN ARABIC",
+            "crse_id": "187408",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1909",
+            "descr": "SPECIAL TOPICS IN ARABIC",
+            "crse_id": "184879",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "typ_offr_label": "Typically Offered"
+}

@@ -1,0 +1,2487 @@
+{
+    "courses": [
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0001",
+            "descr": "FRESHMAN COMPOSITION 1 TUTORIAL",
+            "crse_id": "183226",
+            "crse_offer_nbr": "4",
+            "effdt": "2012-05-21",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "4",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0005",
+            "descr": "COMPOSITION 1",
+            "crse_id": "107468",
+            "crse_offer_nbr": "4",
+            "effdt": "2017-04-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "4",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0006",
+            "descr": "COMPOSITION 2",
+            "crse_id": "107469",
+            "crse_offer_nbr": "4",
+            "effdt": "2021-01-01",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "4",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0008",
+            "descr": "ESL WRITING WORKSHOP",
+            "crse_id": "184398",
+            "crse_offer_nbr": "4",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "4",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0010",
+            "descr": "COLLEGE COMPOSITION 1",
+            "crse_id": "107470",
+            "crse_offer_nbr": "3",
+            "effdt": "1992-09-02",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0011",
+            "descr": "COMPOSITION RECITATION",
+            "crse_id": "171662",
+            "crse_offer_nbr": "3",
+            "effdt": "2019-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0020",
+            "descr": "COLLEGE COMPOSITION 2",
+            "crse_id": "107471",
+            "crse_offer_nbr": "3",
+            "effdt": "2008-01-22",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0030",
+            "descr": "COLLEGE COMPOSITION 3",
+            "crse_id": "107472",
+            "crse_offer_nbr": "3",
+            "effdt": "2008-01-22",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0031",
+            "descr": "BUSINESS WRITING",
+            "crse_id": "182204",
+            "crse_offer_nbr": "3",
+            "effdt": "2023-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0032",
+            "descr": "WRITING IN THE SOCIAL SCIENCES",
+            "crse_id": "182786",
+            "crse_offer_nbr": "3",
+            "effdt": "2012-02-21",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0150",
+            "descr": "WORKSHOP IN COMPOSITION",
+            "crse_id": "107475",
+            "crse_offer_nbr": "5",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "5",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0151",
+            "descr": "WORKSHOP TUTORIAL",
+            "crse_id": "178519",
+            "crse_offer_nbr": "1",
+            "effdt": "2014-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0152",
+            "descr": "ESL: WORKSHOP IN COMPOSITION",
+            "crse_id": "107476",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0200",
+            "descr": "SEMINAR IN COMPOSITION",
+            "crse_id": "107477",
+            "crse_offer_nbr": "1",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0200",
+            "descr": "SEMINAR IN COMPOSITION",
+            "crse_id": "107477",
+            "crse_offer_nbr": "5",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "5",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0201",
+            "descr": "COMPOSITION TUTORIAL",
+            "crse_id": "107478",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-01-01",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0203",
+            "descr": "SEMINAR IN COMPOSITION: GENDER STUDIES",
+            "crse_id": "107480",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0205",
+            "descr": "SEMINAR IN COMPOSITION: FILM",
+            "crse_id": "107481",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0207",
+            "descr": "SEMINAR IN COMPOSITION: EDUCATION",
+            "crse_id": "107482",
+            "crse_offer_nbr": "1",
+            "effdt": "2021-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0208",
+            "descr": "SEMINAR IN COMPOSITION: SERVICE-LEARNING",
+            "crse_id": "150424",
+            "crse_offer_nbr": "1",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0210",
+            "descr": "SEMINAR IN COMPOSITION: ENGINEERING",
+            "crse_id": "187392",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0212",
+            "descr": "SEMINAR IN COMPOSITION: TOPICS IN DIVERSITY",
+            "crse_id": "189077",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-04-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0213",
+            "descr": "SEMINAR IN COMPOSITION: DISABILITY STUDIES",
+            "crse_id": "192333",
+            "crse_offer_nbr": "1",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0214",
+            "descr": "SEMINAR IN COMPOSITION: SUSTAINABILITY",
+            "crse_id": "193768",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0400",
+            "descr": "WRITTEN PROFESSIONAL COMMUNICATION",
+            "crse_id": "107492",
+            "crse_offer_nbr": "5",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "5",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0400",
+            "descr": "WRITTEN PROFESSIONAL COMMUNICATION",
+            "crse_id": "107492",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0401",
+            "descr": "WRITTEN PROFESSIONAL COMMUNICATION: TOPICS IN DIVERSITY",
+            "crse_id": "189076",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0410",
+            "descr": "WRITING IN THE LEGAL PROFESSIONS",
+            "crse_id": "107493",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0412",
+            "descr": "ENGINEERING COMMUNICATION IN A PROFESSIONAL CONTEXT",
+            "crse_id": "191322",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0415",
+            "descr": "WRITING AND ANXIETY",
+            "crse_id": "192382",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0420",
+            "descr": "WRITING FOR THE PUBLIC",
+            "crse_id": "107494",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0425",
+            "descr": "DIGITAL HUMANITY",
+            "crse_id": "185524",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0430",
+            "descr": "PUBLIC COMMUNICATION OF SCIENCE AND TECHNOLOGY",
+            "crse_id": "191398",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0432",
+            "descr": "WRITING FOR ENVIRONMENTAL ADVOCACY",
+            "crse_id": "191693",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0435",
+            "descr": "THE PUBLIC ATHLETE",
+            "crse_id": "192758",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0440",
+            "descr": "CRITICAL WRITING",
+            "crse_id": "107495",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0440",
+            "descr": "CRITICAL WRITING",
+            "crse_id": "107495",
+            "crse_offer_nbr": "5",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "5",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0450",
+            "descr": "RESEARCH WRITING",
+            "crse_id": "107496",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0500",
+            "descr": "TOPICS IN COMPOSITION",
+            "crse_id": "107497",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPRSUM",
+            "typ_offr_descr": "Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0510",
+            "descr": "NARRATIVES OF THE WORKPLACE",
+            "crse_id": "107498",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0515",
+            "descr": "PERSAUSIVE WRITING IN ADVERTISING",
+            "crse_id": "107499",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0520",
+            "descr": "INTEGRATING WRITING AND DESIGN",
+            "crse_id": "174432",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0521",
+            "descr": "WRITING WITH DATA",
+            "crse_id": "190188",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0530",
+            "descr": "WRITING FOR THE SCIENCES",
+            "crse_id": "188354",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0535",
+            "descr": "WRITING IN THE HEALTH SCIENCE PROFESSIONS",
+            "crse_id": "188430",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0540",
+            "descr": "INTRODUCTION TO DISABILITY STUDIES",
+            "crse_id": "192733",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0550",
+            "descr": "TOPICS IN PUBLIC/PROFESSIONAL WRITING",
+            "crse_id": "107500",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0560",
+            "descr": "WRITING ARGUMENTS",
+            "crse_id": "187143",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0565",
+            "descr": "WRITING PLACES",
+            "crse_id": "190881",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0570",
+            "descr": "TOPICS IN BLACK RHETORIC AND PUBLIC WRITING",
+            "crse_id": "189834",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0600",
+            "descr": "INTRODUCTION TO TECHNICAL WRITING",
+            "crse_id": "107501",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0610",
+            "descr": "COMPOSING DIGITAL MEDIA",
+            "crse_id": "180500",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0620",
+            "descr": "THEORIES OF WRITING AND TEACHING",
+            "crse_id": "180501",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0641",
+            "descr": "WRITING FOR CHANGE",
+            "crse_id": "187393",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0712",
+            "descr": "CRITICAL MAKING",
+            "crse_id": "189218",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0905",
+            "descr": "COLLEGIATE READING",
+            "crse_id": "184169",
+            "crse_offer_nbr": "3",
+            "effdt": "2013-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1099",
+            "descr": "THE LANGUAGE OF POLICY AND POWER: TOPICS IN DIVERSITY",
+            "crse_id": "189913",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1100",
+            "descr": "LANGUAGE OF BUSINESS AND INDUSTRY",
+            "crse_id": "107505",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1101",
+            "descr": "LANGUAGE OF SCIENCE AND TECHNOLOGY",
+            "crse_id": "170652",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1102",
+            "descr": "LANGUAGE OF MEDICINE",
+            "crse_id": "188429",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1103",
+            "descr": "PUBLIC RELATIONS WRITING",
+            "crse_id": "108318",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1104",
+            "descr": "CORPORATE STORYTELLING",
+            "crse_id": "108320",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1111",
+            "descr": "PROFESSIONAL WRITING IN GLOBAL CONTEXTS",
+            "crse_id": "178444",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1112",
+            "descr": "PROFESSIONAL USES OF SOCIAL MEDIA",
+            "crse_id": "187395",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1120",
+            "descr": "HISTORY AND ETHICS OF ADVERTISING AND PUBLIC RELATIONS",
+            "crse_id": "190169",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1130",
+            "descr": "PROJECTS IN DIGITAL COMPOSITION",
+            "crse_id": "189835",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1150",
+            "descr": "GRAMMAR AND COPY-EDITING",
+            "crse_id": "107507",
+            "crse_offer_nbr": "3",
+            "effdt": "2011-10-11",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1151",
+            "descr": "PROFESSIONAL EDITING IN CONTEXT",
+            "crse_id": "187394",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1200",
+            "descr": "ADVANCED TOPICS IN COMPOSITION",
+            "crse_id": "107508",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1201",
+            "descr": "DIGITAL NARRATIVE AND INTERACTIVE DESIGN",
+            "crse_id": "191148",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1207",
+            "descr": "WRITING MACHINES\n\n** available as of 06/30/2024",
+            "crse_id": "197967",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1210",
+            "descr": "TUTORING PEER WRITERS",
+            "crse_id": "107509",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1220",
+            "descr": "THE ART OF THE ESSAY",
+            "crse_id": "107510",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1250",
+            "descr": "ADVANCED TOPICS PUBLIC/PROFESSIONAL WRITING",
+            "crse_id": "107511",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1270",
+            "descr": "PROJECTS IN BLACK RHETORIC",
+            "crse_id": "189836",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1400",
+            "descr": "GRANT WRITING FOR NONPROFITS",
+            "crse_id": "107512",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1401",
+            "descr": "WRITING FOR FUNDRAISING AND DEVELOPMENT",
+            "crse_id": "189837",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1402",
+            "descr": "GRANT WRITING FOR RESEARCH",
+            "crse_id": "192383",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1410",
+            "descr": "ADVANCED RESEARCH/DOCUMENTARY WRITING",
+            "crse_id": "107513",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1420",
+            "descr": "WRITING PROPOSALS FOR BUSINESS",
+            "crse_id": "189838",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1430",
+            "descr": "USABILITY TESTING IN TECHNICAL WRITING",
+            "crse_id": "192023",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1452",
+            "descr": "DISCIPLINING ENVIRONMENTAL EDUCATION: USING DIGITAL STORYTELLING TO UNPACK ENVIRONMENTAL ISSUES",
+            "crse_id": "190774",
+            "crse_offer_nbr": "1",
+            "effdt": "2021-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1510",
+            "descr": "WRITING WITH STYLE",
+            "crse_id": "180502",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1551",
+            "descr": "HISTORY AND POLITICS OF THE ENGLISH LANGUAGE",
+            "crse_id": "107727",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1552",
+            "descr": "LANGUAGE, LITERACY, LEARNING",
+            "crse_id": "107514",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1900",
+            "descr": "INTERNSHIP: PUBLIC/PROFESSIONAL WRITING",
+            "crse_id": "107515",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-01-01",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1901",
+            "descr": "UTA IN TEACHING AND TUTORING WRITING",
+            "crse_id": "179566",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1902",
+            "descr": "INDEPENDENT STUDY PUBLIC PROFESSIONAL WRITING",
+            "crse_id": "107516",
+            "crse_offer_nbr": "1",
+            "effdt": "2009-10-11",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1903",
+            "descr": "SERVICE-LEARNING SEMINAR IN PUBLIC AND PROFESSIONAL WRITING",
+            "crse_id": "150235",
+            "crse_offer_nbr": "1",
+            "effdt": "2009-10-13",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1904",
+            "descr": "SERVICE LEARNING ADD-ON CREDIT",
+            "crse_id": "185460",
+            "crse_offer_nbr": "1",
+            "effdt": "2014-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1905",
+            "descr": "INDEPENDENT STUDY SERVICE LEARNING",
+            "crse_id": "185480",
+            "crse_offer_nbr": "1",
+            "effdt": "2014-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1906",
+            "descr": "PROFESSIONAL EXPERIENCE: WRITING, EDITING, OR PR",
+            "crse_id": "190068",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1910",
+            "descr": "BRIDGE SEMINAR",
+            "crse_id": "189217",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1915",
+            "descr": "PROFESSIONAL DEVELOPMENT IN PPW",
+            "crse_id": "195214",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1916",
+            "descr": "PROFESSIONAL DEVELOPMENT IN DIGITAL NARRATIVE AND INTERACTIVE DESIGN",
+            "crse_id": "195215",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+        "typ_offr_label": "Typically Offered"
+}

@@ -1,0 +1,2883 @@
+{
+    "courses": [
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0010",
+            "descr": "INTRODUCTION TO INFORMATION, SYSTEMS AND SOCIETY",
+            "crse_id": "113043",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0010",
+            "descr": "INTRODUCTION TO INFORMATION, SYSTEMS AND SOCIETY",
+            "crse_id": "113043",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0012",
+            "descr": "INTRODUCTION TO PROGRAMMING",
+            "crse_id": "113045",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-06-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0013",
+            "descr": "COMPUTER METHODS IN HUMANITIES",
+            "crse_id": "182078",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0014",
+            "descr": "CYBERSECURITY AND THE LAW",
+            "crse_id": "187358",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "8",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0017",
+            "descr": "FUNDAMENTALS OF OBJECT-ORIENTED PROGRAMMING",
+            "crse_id": "172201",
+            "crse_offer_nbr": "3",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0017",
+            "descr": "FUNDAMENTALS OF OBJECT-ORIENTED PROGRAMMING",
+            "crse_id": "172201",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0201",
+            "descr": "INTERMEDIATE PROGRAMMING WITH PYTHON",
+            "crse_id": "193795",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0310",
+            "descr": "COMPUTATION IN INFORMATION SCIENCE",
+            "crse_id": "191513",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0410",
+            "descr": "HUMAN-CENTERED SYSTEMS",
+            "crse_id": "191514",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0510",
+            "descr": "DATA ANALYSIS",
+            "crse_id": "191515",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0530",
+            "descr": "DECISION-MAKING IN SPORTS",
+            "crse_id": "192021",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0610",
+            "descr": "NETWORKS AND INFORMATION",
+            "crse_id": "191516",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "0702",
+            "descr": "INTRODUCTION TO COMPUTATIONAL SOCIAL SCIENCE",
+            "crse_id": "194159",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1014",
+            "descr": "GRAPHICS",
+            "crse_id": "113054",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-06-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1017",
+            "descr": "IMPLEMENTATION OF INFORMATION SYSTEMS",
+            "crse_id": "172200",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1021",
+            "descr": "TRENDS IN INFORMATION TECHNOLOGY MANAGEMENT",
+            "crse_id": "189455",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1022",
+            "descr": "DATABASE MANAGEMENT SYSTEMS",
+            "crse_id": "113058",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1022",
+            "descr": "DATABASE MANAGEMENT SYSTEMS",
+            "crse_id": "113058",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1023",
+            "descr": "INNOVATION & ENTREPRENEURSHIP IN INFORMATION TECHNOLOGY",
+            "crse_id": "189456",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1024",
+            "descr": "ANALYSIS OF INFORMATION SYSTEMS",
+            "crse_id": "113059",
+            "crse_offer_nbr": "3",
+            "effdt": "2018-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1024",
+            "descr": "ANALYSIS OF INFORMATION SYSTEMS",
+            "crse_id": "113059",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1025",
+            "descr": "DESIGN OF INFORMATION SYSTEMS",
+            "crse_id": "172202",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1027",
+            "descr": "IT PROJECT MANAGEMENT",
+            "crse_id": "188538",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1029",
+            "descr": "BUSINESS ESSENTIALS FOR THE IT PROFESSIONAL",
+            "crse_id": "188539",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1031",
+            "descr": "GOING DIGITAL: TRANSFORMATIONAL CHANGE",
+            "crse_id": "189275",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1037",
+            "descr": "INFORMATION TECHNOLOGY PROJECT MANAGEMENT",
+            "crse_id": "187090",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1038",
+            "descr": "MANAGEMENT INFORMATION SYSTEMS",
+            "crse_id": "113063",
+            "crse_offer_nbr": "3",
+            "effdt": "2023-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1038",
+            "descr": "MANAGEMENT INFORMATION SYSTEMS",
+            "crse_id": "113063",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1040",
+            "descr": "INTRODUCTION TO DATA ANALYTICS",
+            "crse_id": "189457",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1044",
+            "descr": "HUMAN FACTORS IN SYSTEM DESIGN",
+            "crse_id": "113065",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1044",
+            "descr": "HUMAN FACTORS IN SYSTEM DESIGN",
+            "crse_id": "113065",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1049",
+            "descr": "INTRODUCTION TO INFORMATION SECURITY",
+            "crse_id": "191974",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1052",
+            "descr": "USER CENTERED DESIGN",
+            "crse_id": "113067",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1052",
+            "descr": "USER CENTERED DESIGN",
+            "crse_id": "113067",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1053",
+            "descr": "DIGITAL FORENSICS",
+            "crse_id": "184911",
+            "crse_offer_nbr": "3",
+            "effdt": "2020-04-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1055",
+            "descr": "CLIENT/SERVER OPERATING SYSTEMS",
+            "crse_id": "191685",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-04-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1057",
+            "descr": "LINUX OPERATING SYSTEM",
+            "crse_id": "191604",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-04-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1058",
+            "descr": "SERVER-SIDE WEB PROGRAMMING",
+            "crse_id": "176269",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1059",
+            "descr": "WEB PROGRAMMING",
+            "crse_id": "176530",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1060",
+            "descr": "GAME DESIGN",
+            "crse_id": "113070",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1061",
+            "descr": "GAME IMPLEMENTATION",
+            "crse_id": "188540",
+            "crse_offer_nbr": "1",
+            "effdt": "2019-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1068",
+            "descr": "GEOSPATIAL INFORMATION SYSTEMS (GIS)",
+            "crse_id": "113075",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1070",
+            "descr": "INTRODUCTION TO TELECOMMUNICATIONS AND NETWORKS",
+            "crse_id": "172204",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1070",
+            "descr": "INTRODUCTION TO TELECOMMUNICATIONS AND NETWORKS",
+            "crse_id": "172204",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1071",
+            "descr": "APPLICATIONS OF NETWORKS",
+            "crse_id": "172203",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1071",
+            "descr": "APPLICATIONS OF NETWORKS",
+            "crse_id": "172203",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1072",
+            "descr": "INTRODUCTION TO WIRELESS NETWORKS",
+            "crse_id": "172205",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1072",
+            "descr": "INTRODUCTION TO WIRELESS NETWORKS",
+            "crse_id": "172205",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1073",
+            "descr": "APPLICATION DEVELOPMENT FOR MOBILE DEVICES",
+            "crse_id": "172206",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1074",
+            "descr": "COMPUTER SECURITY",
+            "crse_id": "172207",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "8",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1074",
+            "descr": "COMPUTER SECURITY",
+            "crse_id": "172207",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1075",
+            "descr": "NETWORK SECURITY",
+            "crse_id": "172208",
+            "crse_offer_nbr": "3",
+            "effdt": "2020-04-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1077",
+            "descr": "NETWORK ANALYSIS",
+            "crse_id": "178064",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1078",
+            "descr": "ETHICS IN COMPUTING\t",
+            "crse_id": "184830",
+            "crse_offer_nbr": "3",
+            "effdt": "2014-01-01",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1079",
+            "descr": "COMPUTER NETWORKING LABORATORY",
+            "crse_id": "179344",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1080",
+            "descr": "INDEPENDENT STUDY",
+            "crse_id": "113076",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1081",
+            "descr": "TEAM-BASED CAPSTONE PROJECT",
+            "crse_id": "188282",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1082",
+            "descr": "INFORMATION SCIENCE COOPERATIVE PROGRAM",
+            "crse_id": "188557",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-01-01",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1085",
+            "descr": "INTERNSHIP",
+            "crse_id": "113077",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": true,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                },
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1086",
+            "descr": "INTERNSHIP",
+            "crse_id": "177121",
+            "crse_offer_nbr": "3",
+            "effdt": "2020-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1087",
+            "descr": "ETHICAL HACKING",
+            "crse_id": "194957",
+            "crse_offer_nbr": "3",
+            "effdt": "2024-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1090",
+            "descr": "SPECIAL TOPICS: PROGRAMMING",
+            "crse_id": "113078",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1091",
+            "descr": "SPECIAL TOPICS: BEHAVIORAL",
+            "crse_id": "113079",
+            "crse_offer_nbr": "1",
+            "effdt": "2018-01-01",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1092",
+            "descr": "SPECIAL TOPICS: SYSTEMS",
+            "crse_id": "113080",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1092",
+            "descr": "SPECIAL TOPICS: SYSTEMS",
+            "crse_id": "113080",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1100",
+            "descr": "STUDY ABROAD",
+            "crse_id": "188226",
+            "crse_offer_nbr": "1",
+            "effdt": "2017-06-30",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1128",
+            "descr": "DATA VISUALIZATION",
+            "crse_id": "192591",
+            "crse_offer_nbr": "3",
+            "effdt": "2023-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1160",
+            "descr": "DATA MINING",
+            "crse_id": "189291",
+            "crse_offer_nbr": "3",
+            "effdt": "2018-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1399",
+            "descr": "SPECIAL TOPICS",
+            "crse_id": "191975",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1400",
+            "descr": "ANALYSIS OF INFORMATION SYSTEMS",
+            "crse_id": "191517",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1420",
+            "descr": "USER-CENTERED DESIGN",
+            "crse_id": "191518",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1430",
+            "descr": "USER EXPERIENCE ENGINEERING",
+            "crse_id": "191519",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1440",
+            "descr": "SOCIAL COMPUTING",
+            "crse_id": "191713",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1450",
+            "descr": "GAME DESIGN",
+            "crse_id": "191520",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1460",
+            "descr": "IT PROJECT MANAGEMENT",
+            "crse_id": "191521",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1470",
+            "descr": "IMMERSIVE MEDIA TECHNOLOGIES",
+            "crse_id": "191522",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1499",
+            "descr": "SPECIAL TOPICS: HUMAN-CENTERED",
+            "crse_id": "191976",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1500",
+            "descr": "DATABASE MANAGEMENT CONCEPTS AND APPLICATIONS",
+            "crse_id": "191523",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1520",
+            "descr": "INFORMATION VISUALIZATION",
+            "crse_id": "191714",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1525",
+            "descr": "CURATING DIGITAL DATA",
+            "crse_id": "192022",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1530",
+            "descr": "DATA MINING",
+            "crse_id": "191524",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1540",
+            "descr": "DATA ENGINEERING",
+            "crse_id": "191525",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1550",
+            "descr": "GEOSPATIAL INFORMATION SYSTEMS (GIS)\n\n** available as of 06/30/2024",
+            "crse_id": "191526",
+            "crse_offer_nbr": "1",
+            "effdt": "2024-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1550",
+            "descr": "SPATIAL INFORMATION",
+            "crse_id": "191526",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1560",
+            "descr": "INFORMATION STORAGE AND RETRIEVAL",
+            "crse_id": "191715",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1570",
+            "descr": "NETWORK AND WEB DATA TECHNOLOGIES",
+            "crse_id": "191716",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1599",
+            "descr": "SPECIAL TOPICS: DATA AND INFORMATION",
+            "crse_id": "191977",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1600",
+            "descr": "SECURITY AND PRIVACY",
+            "crse_id": "191527",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1620",
+            "descr": "ADVANCED SECURITY AND PRIVACY",
+            "crse_id": "191528",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1630",
+            "descr": "COMMUNICATION NETWORKS",
+            "crse_id": "191529",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALL",
+            "typ_offr_descr": "Fall",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1640",
+            "descr": "WIRELESS NETWORKS",
+            "crse_id": "191530",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1650",
+            "descr": "MULTIMEDIA COMMUNICATIONS",
+            "crse_id": "191531",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1660",
+            "descr": "COMPUTER NETWORKING LABORATORY",
+            "crse_id": "191532",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPRSUM",
+            "typ_offr_descr": "Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1670",
+            "descr": "SECURITY MANAGEMENT AND COMPUTER FORENSICS",
+            "crse_id": "191717",
+            "crse_offer_nbr": "1",
+            "effdt": "2023-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1680",
+            "descr": "SOCIAL MEDIA",
+            "crse_id": "187549",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1690",
+            "descr": "CLOUD COMPUTING",
+            "crse_id": "191718",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1699",
+            "descr": "SPECIAL TOPICS: NETWORKS AND SECURITY",
+            "crse_id": "191978",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1700",
+            "descr": "DATA-DRIVEN COMMUNICATION",
+            "crse_id": "191533",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1710",
+            "descr": "DIRECTED RESEARCH",
+            "crse_id": "192335",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-01-01",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1720",
+            "descr": "INTERNSHIP",
+            "crse_id": "191534",
+            "crse_offer_nbr": "1",
+            "effdt": "2020-06-30",
+            "typ_offr": "FALLSPRSUM",
+            "typ_offr_descr": "Fall, Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1730",
+            "descr": "INDEPENDENT STUDY",
+            "crse_id": "191535",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPRSUM",
+            "typ_offr_descr": "Spring, Summer",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 999.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1740",
+            "descr": "TEAM-BASED CAPSTONE PROJECT",
+            "crse_id": "191827",
+            "crse_offer_nbr": "1",
+            "effdt": "2022-06-30",
+            "typ_offr": "FALLSPR",
+            "typ_offr_descr": "Fall, Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "1",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1851",
+            "descr": "PRACTICUM IN DATA ANALYTICS",
+            "crse_id": "194198",
+            "crse_offer_nbr": "3",
+            "effdt": "2022-06-30",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1901",
+            "descr": "INTERNSHIP FOR DATA ANALYTICS",
+            "crse_id": "194316",
+            "crse_offer_nbr": "3",
+            "effdt": "2023-01-01",
+            "typ_offr": "",
+            "typ_offr_descr": "",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1950",
+            "descr": "UNDERGRAD TEACHING ASSISTANT EXPERIENCE",
+            "crse_id": "187853",
+            "crse_offer_nbr": "3",
+            "effdt": "2017-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": false,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acad_career": "UGRD",
+            "catalog_nbr": "1951",
+            "descr": "DATA ANALYTICS CAPSTONE",
+            "crse_id": "194188",
+            "crse_offer_nbr": "3",
+            "effdt": "2023-01-01",
+            "typ_offr": "SPR",
+            "typ_offr_descr": "Spring",
+            "has_open_terms": true,
+            "multipleOfferings": false,
+            "offerings": [
+                {
+                    "crse_offer_nbr": "3",
+                    "careers": [
+                        {
+                            "acad_career": "UGRD",
+                            "descr": "Undergraduate",
+                            "in_planner": false,
+                            "can_add_to_planner": true,
+                            "max_addable_units": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "typ_offr_label": "Typically Offered"
+}

@@ -19,16 +19,16 @@ def main():
             reqs = get_course_reqs(
                 course["crse_id"], course["effdt"], course["crse_offer_nbr"]
             )
-            if "CS " + course["catalog_nbr"] in bigimportantdata:
+            if "ENGCMP " + course["catalog_nbr"] in bigimportantdata:
                 pass
             else:
-                bigimportantdata["CS " + course["catalog_nbr"]] = str(reqs[0])
+                bigimportantdata["ENGCMP " + course["catalog_nbr"]] = str(reqs[0])
         except IndexError:
             # TODO: 13 / 113 courses are erroring
             print(f"{course['descr']}: ERROR")
-            bigimportantdata["CS " + course["catalog_nbr"]] = "MISSING"
+            bigimportantdata["ENGCMP " + course["catalog_nbr"]] = "MISSING"
 
-    with open("bigimportantdata.json", "w") as f:
+    with open("bigimportantdata_engcmp.json", "w") as f:
         json.dump(bigimportantdata, f)
 
 
@@ -45,17 +45,35 @@ def sanitize_reqs(reqs: str) -> str:
     reqs = reqs.replace(" or any MATH greater than or equal to MATH 0031", "")
     reqs = reqs.replace(" and COE Major", "")
     # replace with r" ?\(min .*\)" with case insensitive flag
+    reqs = reqs.replace(" (MIN GRADE 'B')", "")
     reqs = reqs.replace(" (Min Grade 'C')", "")
+    reqs = reqs.replace(" (MIN GRADE 'C')", "")
     reqs = reqs.replace(" (Min Grade 'C' or Transfer)", "")
     reqs = reqs.replace(" (MIN GRADE 'C' or Transfer)", "")
     reqs = reqs.replace(" (MIN GRADE 'C' OR TRANSFER)", "")
     reqs = reqs.replace("(Min Grade 'C' or Transfer for All Listed Courses)", "")
     reqs = reqs.replace(" (MIN GRADE 'C' or Transfer For All Listed Coures)", "")
+    reqs = reqs.replace(" (MIN GRADE 'C') or MATH PLACEMENT SCORE (61 or GREATER)", "")
 
     reqs = reqs.replace(" with a minimum grade of C or TRANSFER", "")
     reqs = reqs.replace(", MIN GPA: 3.25", "")
     reqs = reqs.replace("CS (", "(")
+    reqs = reqs.replace("ENGCMP (", "(")
+    reqs = reqs.replace("FP (", "(")
     reqs = reqs.replace("CS or COE", "CS/COE")
+    reqs = reqs.replace(" ANY ENGCMP COURSE", "")
+
+    reqs = reqs.replace(" or (SAT High Verbal Score of 650 or Greater)", "")
+    reqs = reqs.replace(" or placement", "")
+    reqs = reqs.replace("*Applies to all WRIT Courses*", "")
+    reqs = reqs.replace(" or equivalent", "")
+
+    reqs = reqs.replace(".", "")
+    reqs = reqs.replace(" 90 Credits or Career Level = Senior", "")
+
+    reqs = reqs.replace(" OR ", " or ")
+    reqs = reqs.replace(" AND ", " and ")
+    reqs = reqs.replace(",", "")
     print("\t" + reqs)
     return reqs
 
