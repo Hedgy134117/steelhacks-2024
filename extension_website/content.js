@@ -11,7 +11,6 @@ window.onload = () => {
         childList: true,
         subtree: true
     });
-
 }
 
 function main(doc) {
