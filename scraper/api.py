@@ -8,7 +8,11 @@ BASE_LINK = "https://pitcsprd.csps.pitt.edu/psc/pitcsprd/EMPLOYEE/SA/s/WEBLIB_HC
 
 # Gets all the courses but NOT their prereqs
 def get_courses() -> dict:
-    req = requests.get(BASE_LINK + "SubjectCourses" + BASE_QUERIES)
+    # req = requests.get(BASE_LINK + "SubjectCourses" + BASE_QUERIES)
+    req = None
+    with open("courses.json") as f:
+        req = f.readlines()
+    req = "".join(req)
     # {
     # "courses": [
     #       {
@@ -20,10 +24,10 @@ def get_courses() -> dict:
     #       ...
     #       ]
     # }
-    return json.loads(req.content)["courses"]
+    return json.loads(req)["courses"]
 
 
-# Gets a course's details, including its reqss
+# Gets a course's details, including its reqs
 def get_course_details(course_id: int, effdt: str, crse_offer_nbr: int) -> dict:
     req = requests.get(
         BASE_LINK
