@@ -176,7 +176,7 @@
           if (visited.has(course)) return;
           visited.add(course);
 
-          nodes.push({ id: course, label: course });
+          nodes.push({ id: course, label: course, shape: 'box'});
 
           if (parentId !== null) {
             edges.push({
