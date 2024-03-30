@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fancy Popup</title>
-    <link rel="stylesheet" href="..\node_modules\vis\dist\vis.css">
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- <link rel="stylesheet" href="..\node_modules\vis\dist\vis.css"> -->
     <link rel="stylesheet" href="styles.css">
     <script src="popup.js"></script>
-    <script src="network_init.js"></script> <!-- Include the external JavaScript file -->
 </head>
 
 <body>
     <div class="container">
-        <h1>Welcome to the Fancy Popup!</h1>
-        <p>This is where you can interact with content from the webpage.</p>
-        <button class="button" id="clickButton">Click Me!</button>
-        <div id="popup-content">Content from the webpage will appear here.</div>
-        <!-- Add a container for the vis.js network -->
         <div id="network"></div>
     </div>
+    <script type="text/javascript" src="vis.js"></script>
+    <script src="network_init.js"></script> <!-- Include the external JavaScript file -->
 </body>
 
 </html>
