@@ -10,7 +10,6 @@ def main():
     CS_0441 = [105694, "2022-01-01", 3]
     CS_1501 = [105761, "2024-01-01", 1]
     CS_1550 = [105774, "2019-06-01", 1]
-    # TODO: add CS to catalog number
     # pprint(api.get_course_details(*CS_0441))
     # print(get_course_reqs(*CS_1550))
     bigimportantdata = {}
@@ -25,6 +24,7 @@ def main():
             else:
                 bigimportantdata["CS " + course["catalog_nbr"]] = str(reqs[0])
         except IndexError:
+            # TODO: 13 / 113 courses are erroring
             print(f"{course['descr']}: ERROR")
             bigimportantdata["CS " + course["catalog_nbr"]] = "MISSING"
 
@@ -40,15 +40,18 @@ def get_course_reqs(course_id: int, effdt: str, crse_offer_nbr: int) -> dict:
 
 
 def sanitize_reqs(reqs: str) -> str:
+    # there's probably a better way to do this
     reqs = reqs.replace(" or Math Placement Score (46 or greater)", "")
     reqs = reqs.replace(" or any MATH greater than or equal to MATH 0031", "")
     reqs = reqs.replace(" and COE Major", "")
+    # replace with r" ?\(min .*\)" with case insensitive flag
     reqs = reqs.replace(" (Min Grade 'C')", "")
     reqs = reqs.replace(" (Min Grade 'C' or Transfer)", "")
     reqs = reqs.replace(" (MIN GRADE 'C' or Transfer)", "")
     reqs = reqs.replace(" (MIN GRADE 'C' OR TRANSFER)", "")
     reqs = reqs.replace("(Min Grade 'C' or Transfer for All Listed Courses)", "")
     reqs = reqs.replace(" (MIN GRADE 'C' or Transfer For All Listed Coures)", "")
+
     reqs = reqs.replace(" with a minimum grade of C or TRANSFER", "")
     reqs = reqs.replace(", MIN GPA: 3.25", "")
     reqs = reqs.replace("CS (", "(")
@@ -60,14 +63,19 @@ def sanitize_reqs(reqs: str) -> str:
 def parse_reqs(reqs: str) -> list:
     reqs = sanitize_reqs(reqs)
     preqsAndCreqs = reqs.split("; ")
+
+    # there's a few that don't have a space after the ;
     if ";" in reqs:
         preqsAndCreqs = reqs.split(";")
     preqs = preqsAndCreqs[0].split("PREQ: ")
+
+    # only parse preqs if they exist
     if len(preqs) > 1:
         preqs = parse_req_str(preqs[1])
     else:
         preqs = None
 
+    # only parse creqs if they exist
     if len(preqsAndCreqs) > 1 and "CREQ" in preqsAndCreqs[1]:
         creqs = preqsAndCreqs[1].split("CREQ: ")
         creqs = parse_req_str(creqs[1])
@@ -129,7 +137,7 @@ def parse_req_str(reqs: str) -> list:
             wait = False
             for j in range(i, -1, -1):
                 if reqs[j] == "[":
-                    if wait:  # skip nested nested w=huh?
+                    if wait:  # skip nested nested []/()
                         wait = False
                         continue
                     reqs = f"{reqs[:j]}({reqs[j+1:]}"
@@ -140,7 +148,7 @@ def parse_req_str(reqs: str) -> list:
             wait = False
             for j in range(i, len(reqs)):
                 if reqs[j] == "]":
-                    if wait:
+                    if wait:  # skip nested nested []/()
                         wait = False
                         continue
                     reqs = f"{reqs[:j]}){reqs[j+1:]}"
