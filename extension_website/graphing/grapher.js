@@ -211,7 +211,7 @@ function drawGraph(startCourse, container) {
                 roundness: 0.2,
             },
         },
-        height: "1000px"
+        height: "600px"
     };
     new vis.Network(container, data, options);
 }

@@ -63,7 +63,7 @@ function inject_click_on_course(target) {
 function generate_reqs_HTML(courseName) {
     courseName = courseName.replace(" ", "");
     const HTML = `
-    <div class="cx-MuiGrid-root cx-MuiGrid-item cx-MuiGrid-grid-xs-12 cx-MuiGrid-grid-md-6" style="display: flex;">
+    <div class="cx-MuiGrid-root cx-MuiGrid-item cx-MuiGrid-grid-xs-12 cx-MuiGrid-grid-md-6" style="display: flex; max-width: 100% !important; flex-basis: 100% !important;">
         <div style="padding: 12px; border-radius: 4px; background: rgb(245, 246, 250); width: 100%;" id="graph-${courseName}">
             <p class="cx-MuiTypography-root cx-MuiTypography-h4">Reqs</p>
         </div>
