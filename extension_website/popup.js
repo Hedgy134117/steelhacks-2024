@@ -108,3 +108,4 @@ function generateGraphForClass(courseId) {
 
     // You may need additional logic here to update the graph if it already exists
 }
+
