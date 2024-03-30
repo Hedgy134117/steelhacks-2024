@@ -1,17 +1,28 @@
-// Function to handle the click event on the element
-function handleElementClick() {
-    // Execute your desired action here, e.g., displaying an alert
-    alert('View Sections button clicked!');
+window.onload = () => {
+    // Only run main when we're looking at a course category (like CS)
+    const observer = new MutationObserver(mutations => {
+        const doc = document.querySelector("iframe").contentDocument;
+        console.log(doc);
+        if (doc.querySelector("h2") !== null && doc.querySelector("h2").innerText.startsWith("Choose")) {
+            main(doc);
+            observer.disconnect();
+        }
+    })
+    observer.observe(document.querySelector("iframe").contentDocument, {
+        childList: true,
+        subtree: true
+    });
+
 }
 
-// Find the span element with the specified class and add a click event listener to it
-const element = document.querySelector('span.cx-MuiButton-label');
-if (element) {
-    console.log('Found View Sections button!');
-    element.addEventListener('click', handleElementClick);
-} else {
-    console.log('View Sections button not found!');
+function main(doc) {
+    for (let li of doc.querySelectorAll("li")) {
+        li.addEventListener("click", e => inject_click_on_course(e.target));
+    }
 }
 
-// Log a message to indicate that the content script has been injected successfully
-console.log('Content script injected!');
+// `target` is whichever class the user clicks on
+function inject_click_on_course(target) {
+    const courseName = target.querySelector("span").innerText;
+    console.log(courseName);
+}
