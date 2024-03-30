@@ -46,7 +46,9 @@ function inject_click_on_course(target) {
                 container = container.children[1];
                 container = container.children[0].children[0].children[0].children[1].children[0];
                 console.log(container);
-                container.innerHTML += generate_reqs_HTML();
+                container.innerHTML += generate_reqs_HTML(courseName);
+                let graphcontainer = document.querySelector("iframe").contentDocument.querySelector(`#graph-${courseName.replace(" ", "")}`);
+                drawGraph(courseName, graphcontainer);
                 return
             }, 500);
             observer.disconnect();
@@ -58,7 +60,13 @@ function inject_click_on_course(target) {
     });
 }
 
-function generate_reqs_HTML() {
-    const HTML = `<div class="cx-MuiGrid-root cx-MuiGrid-item cx-MuiGrid-grid-xs-12 cx-MuiGrid-grid-md-6" style="display: flex;"><div style="padding: 12px; border-radius: 4px; background: rgb(245, 246, 250); width: 100%;"><p class="cx-MuiTypography-root cx-MuiTypography-h4">Reqs</p></div></div>`;
+function generate_reqs_HTML(courseName) {
+    courseName = courseName.replace(" ", "");
+    const HTML = `
+    <div class="cx-MuiGrid-root cx-MuiGrid-item cx-MuiGrid-grid-xs-12 cx-MuiGrid-grid-md-6" style="display: flex;">
+        <div style="padding: 12px; border-radius: 4px; background: rgb(245, 246, 250); width: 100%;" id="graph-${courseName}">
+            <p class="cx-MuiTypography-root cx-MuiTypography-h4">Reqs</p>
+        </div>
+    </div>`;
     return HTML;
 }

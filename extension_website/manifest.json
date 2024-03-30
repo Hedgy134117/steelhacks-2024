@@ -12,7 +12,7 @@
             "matches": [
                 "https://pitcsprd.csps.pitt.edu/psp/pitcsprd/EMPLOYEE/SA/s/WEBLIB_HCX_CM.H_COURSE_CATALOG.FieldFormula.IScript_Main?"
             ],
-            "js": ["content.js", "vis.js"],
+            "js": ["content.js", "vis.js", "grapher.js"],
             "all_frames": true
         }
     ]
