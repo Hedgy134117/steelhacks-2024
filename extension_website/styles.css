@@ -1,3 +1,36 @@
+/* styles.css */
 body {
-    background-color: lightblue !important;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    /* Adjust the max-width to make the popup wider */
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#network {
+    width: 100%;
+    /* Set the width to 100% to fill the container */
+    height: 100%;
+    /* Set the height to 100% to fill the container */
+    position: absolute;
+    /* Set the position to absolute to position it within the container */
+    top: 0;
+    /* Position it at the top of the container */
+    left: 0;
+    /* Position it at the left of the container */
+}
+
+.vis-network .vis-node {
+    border-radius: 6px;
+    /* Adjust the radius to control the roundness of corners */
 }

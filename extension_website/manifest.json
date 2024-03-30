@@ -2,11 +2,21 @@
     "manifest_version": 3,
     "name": "Course Catalog Extension",
     "version": "1.0",
-    "description": "Enhance the browsing experience.",
+    "description": "Enhance the browsing experience on specific website.",
     "permissions": [
         "activeTab"
     ],
     "action": {
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://pitcsprd.csps.pitt.edu/psp/pitcsprd/EMPLOYEE/SA/s/WEBLIB_HCX_CM.H_COURSE_CATALOG.FieldFormula.IScript_Main?"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
 }

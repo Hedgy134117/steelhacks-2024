@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Catalog Extension Popup</title>
-    <!-- Add your CSS styles here -->
+    <title>Fancy Popup</title>
+    <!-- <link rel="stylesheet" href="..\node_modules\vis\dist\vis.css"> -->
     <link rel="stylesheet" href="styles.css">
+    <script src="popup.js"></script>
 </head>
 
 <body>
-    <div class="popup-container">
-        <h1>Welcome to the Course Catalog Extension!</h1>
-        <p>This is a sample popup page for your extension.</p>
-        <button id="close-popup">Close Popup</button>
+    <div class="container">
+        <center>
+            <h1>Prerequisite Network Portal</h1>
+        </center>
+        <div id="network"></div>
     </div>
-    <!-- Add your JavaScript code here -->
-    <script src="popup.js"></script>
+    <script type="text/javascript" src="vis.js"></script>
+    <script src="network_init.js"></script> <!-- Include the external JavaScript file -->
 </body>
 
 </html>
