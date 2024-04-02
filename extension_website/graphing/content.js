@@ -1,20 +1,23 @@
-window.onload = () => {
-    // Only run main when we're looking at a course category (like CS)
+let doc; // the iframe document (where everything happens)
+
+// Only run the script on course catalog category pages (like CS, COE, ARABIC, etc.)
+document.querySelector("#main_iframe").addEventListener("load", function () {
+    doc = this.contentWindow.document;
     const observer = new MutationObserver(mutations => {
-        const doc = document.querySelector("iframe").contentDocument;
         if (doc.querySelector("h2") !== null && doc.querySelector("h2").innerText.startsWith("Choose")) {
             main(doc);
-            observer.disconnect();
         }
     })
-    observer.observe(document.querySelector("iframe").contentDocument, {
+    observer.observe(doc, {
         childList: true,
         subtree: true
     });
-}
+})
 
 function main(doc) {
-    for (let li of doc.querySelectorAll("div[header='Course']")) {
+    // "data-graph" attribute is necessary to avoid adding extra event listeners
+    for (let li of doc.querySelectorAll("div[header='Course']:not([data-graph='true'])")) {
+        li.setAttribute("data-graph", "true");
         li.addEventListener("click", e => inject_click_on_course(e.target));
     }
 }
@@ -32,7 +35,12 @@ function inject_click_on_course(target) {
         }
     }
 
-    console.log(target);
+    // Course already has a graph; don't add a new one
+    if (doc.querySelector(`#graph-${courseName.replace(" ", "")}`) !== null) {
+        return;
+    }
+
+    // there is certainly a better way to do all of this
     let container = target
         .parentElement
         .parentElement
@@ -40,24 +48,13 @@ function inject_click_on_course(target) {
         .parentElement
         .parentElement
 
-    const observer = new MutationObserver(mutations => {
-        if (container.children.length > 1) {
-            setTimeout(() => {
-                container = container.children[1];
-                container = container.children[0].children[0].children[0].children[1].children[0];
-                console.log(container);
-                container.innerHTML += generate_reqs_HTML(courseName);
-                let graphcontainer = document.querySelector("iframe").contentDocument.querySelector(`#graph-${courseName.replace(" ", "")}`);
-                drawGraph(courseName, graphcontainer);
-                return
-            }, 500);
-            observer.disconnect();
-        }
-    });
-    observer.observe(container, {
-        childList: true,
-        subtree: true
-    });
+    setTimeout(() => {
+        container = container.children[1];
+        container = container.children[0].children[0].children[0].children[1].children[0];
+        container.innerHTML += generate_reqs_HTML(courseName);
+        let graphcontainer = doc.querySelector(`#graph-${courseName.replace(" ", "")}`);
+        drawGraph(courseName, graphcontainer);
+    }, 1000);
 }
 
 function generate_reqs_HTML(courseName) {
