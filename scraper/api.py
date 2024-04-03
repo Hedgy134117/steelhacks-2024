@@ -1,18 +1,15 @@
 import json
 
 import requests
+from categories import Category
 
 BASE_QUERIES = "?institution=UPITT&x_acad_career=UGRD&"
 BASE_LINK = "https://pitcsprd.csps.pitt.edu/psc/pitcsprd/EMPLOYEE/SA/s/WEBLIB_HCX_CM.H_COURSE_CATALOG.FieldFormula.IScript_"
 
 
 # Gets all the courses but NOT their prereqs
-def get_courses() -> dict:
-    # req = requests.get(BASE_LINK + "SubjectCourses" + BASE_QUERIES)
-    req = None
-    with open("courses_engcmp.json") as f:
-        req = f.readlines()
-    req = "".join(req)
+def get_courses(subject: Category) -> dict:
+    req = requests.get(f"{BASE_LINK}SubjectCourses{BASE_QUERIES}subject={subject}")
     # {
     # "courses": [
     #       {
@@ -24,7 +21,7 @@ def get_courses() -> dict:
     #       ...
     #       ]
     # }
-    return json.loads(req)["courses"]
+    return json.loads(req.content)["courses"]
 
 
 # Gets a course's details, including its reqs

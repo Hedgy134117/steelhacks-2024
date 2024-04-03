@@ -4,32 +4,36 @@ from pprint import pprint
 
 import api
 import regex
+from categories import Category
 
 
 def main():
-    CS_0441 = [105694, "2022-01-01", 3]
-    CS_1501 = [105761, "2024-01-01", 1]
-    CS_1550 = [105774, "2019-06-01", 1]
-    # pprint(api.get_course_details(*CS_0441))
-    # print(get_course_reqs(*CS_1550))
-    bigimportantdata = {}
+    cat = Category.CS
+    reqs = get_course_category_reqs(cat)
 
-    for course in api.get_courses():
+    with open(f"outputs/reqs_{cat}.json", "w") as f:
+        json.dump(reqs, f, indent=4)
+
+
+# TODO: add a pretty progress bar :)
+def get_course_category_reqs(category: Category):
+    courses = api.get_courses(category)
+
+    output = {}
+    for course in courses:
         try:
             reqs = get_course_reqs(
                 course["crse_id"], course["effdt"], course["crse_offer_nbr"]
             )
-            if "ENGCMP " + course["catalog_nbr"] in bigimportantdata:
+            if f"{category} " + course["catalog_nbr"] in output:
                 pass
             else:
-                bigimportantdata["ENGCMP " + course["catalog_nbr"]] = str(reqs[0])
+                output[f"{category} " + course["catalog_nbr"]] = str(reqs[0])
         except IndexError:
-            # TODO: 13 / 113 courses are erroring
-            print(f"{course['descr']}: ERROR")
-            bigimportantdata["ENGCMP " + course["catalog_nbr"]] = "MISSING"
+            # TODO: shouldn't have errors in the first place
+            output[f"{category} " + course["catalog_nbr"]] = "MISSING"
 
-    with open("bigimportantdata_engcmp.json", "w") as f:
-        json.dump(bigimportantdata, f)
+    return output
 
 
 def get_course_reqs(course_id: int, effdt: str, crse_offer_nbr: int) -> dict:
@@ -74,7 +78,6 @@ def sanitize_reqs(reqs: str) -> str:
     reqs = reqs.replace(" OR ", " or ")
     reqs = reqs.replace(" AND ", " and ")
     reqs = reqs.replace(",", "")
-    print("\t" + reqs)
     return reqs
 
 
@@ -113,14 +116,12 @@ def parse_req_str(reqs: str) -> list:
     # ( ) -> [ ]
     # [CS 0441 or CS 0406] and [[CS 0445 or CS 0455 or COE 0445] or [CS 0245 and CS 0207]]
     reqs = reqs.replace("(", "[").replace(")", "]")
-    print(f"\t {reqs}")
 
     # " or " -> ", "
     # [CS 0441, CS 0406] and [[CS 0445, CS 0455, COE 0445], [CS 0245 and CS 0207]]
     reqs = reqs.replace(" or ", ", ")
     if "\xa0" in reqs:
         reqs = reqs.replace("\xa0", " ").replace(" or ", ", ")
-    print(f"\t {reqs}")
 
     # Outer Level " and " -> ", " and surround with ( )
     # ([CS 0441, CS 0406], [[CS 0445, CS 0455, COE 0445], [CS 0245 and CS 0207]])
@@ -137,7 +138,6 @@ def parse_req_str(reqs: str) -> list:
             # surround with ( )
             if "(" not in reqs:
                 reqs = f"({reqs})"
-    print(f"\t {reqs}")
 
     # Inner Level " and " -> ", " and replace [ ] with ( )
     # ([CS 0441, CS 0406], [[CS 0445, CS 0455, COE 0445], (CS 0245 , CS 0207)])
@@ -173,15 +173,12 @@ def parse_req_str(reqs: str) -> list:
                     break
                 elif reqs[j] == "[":
                     wait = True
-    print(f"\t {reqs}")
 
     # 'abc' -> '"abc"'
     reqs = re.sub(r"([A-Za-z/]+ \d+)", r'"\1"', reqs)
-    print(f"\t {reqs}")
 
     # '123' -> '"123"' (pitt's fault for not clearly defining their reqs)
     reqs = regex.sub(r'(?<=^([^"]|"[^"]*")*)(\d+)', r'"\2"', reqs)
-    print(f"\t {reqs}")
 
     if not ("(" in reqs or "[" in reqs):
         return eval(f"[{reqs}]")
