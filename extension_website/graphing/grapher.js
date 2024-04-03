@@ -338,69 +338,148 @@ var courseData = {
     "ENGCMP 1916": "None"
 };
 
-function parsePrerequisites(prerequisites) {
-    if (prerequisites === "None" || prerequisites === "MISSING" || prerequisites === undefined)
-        return null;
-    try {
-        // Replace single quotes with double quotes for JSON compatibility
-        let cleaned = prerequisites
-            .replace(/'/g, '"')
-            .replace(/\(/g, "[")
-            .replace(/\)/g, "]");
-        return JSON.parse(cleaned);
-    } catch (error) {
-        console.error("Parsing error", error);
-        return null;
+function getPrerequisitesForCourse(courseCode) {
+  const prereqString = courseData[courseCode];
+  // Check for 'None' or 'MISSING' values
+  if (prereqString === 'None' || prereqString === 'MISSING') {
+      return { type: 'NONE', value: [] }; // No prerequisites
+  }
+  // Parse the prerequisites string to a structured format
+  return parseInput(prereqString);
+}
+
+function parseInput(input) {
+  // Remove all single quotes for JSON compatibility
+  const cleanInput = input.replace(/'/g, '"');
+
+  function tokenize(input) {
+      let tokens = [];
+      let currentToken = '';
+      let depth = 0;
+
+      for (let i = 0; i < input.length; i++) {
+          const char = input[i];
+          if ((char === '[' || char === '(') && depth === 0) {
+              if (currentToken.trim()) {
+                  tokens.push(currentToken.trim());
+              }
+              currentToken = char;
+              depth++;
+          } else if ((char === ']' || char === ')') && depth === 1) {
+              currentToken += char;
+              tokens.push(currentToken.trim());
+              currentToken = '';
+              depth--;
+          } else if (char === '[' || char === '(') {
+              currentToken += char;
+              depth++;
+          } else if (char === ']' || char === ')') {
+              currentToken += char;
+              depth--;
+          } else if (depth > 0) {
+              currentToken += char;
+          } else if (char === ',') {
+              if (currentToken.trim()) {
+                  tokens.push(currentToken.trim());
+              }
+              currentToken = '';
+          } else {
+              currentToken += char;
+          }
+      }
+      if (currentToken.trim()) {
+          tokens.push(currentToken.trim());
+      }
+      return tokens;
+  }
+
+  // Parse tokens into a structured format
+  function parseTokens(tokens) {
+      return tokens.map(token => {
+          if (token.startsWith('[') && token.endsWith(']')) {
+              // OR condition
+              return { type: 'OR', value: parseTokens(tokenize(token.slice(1, -1))) };
+          } else if (token.startsWith('(') && token.endsWith(')')) {
+              // AND condition
+              return { type: 'AND', value: parseTokens(tokenize(token.slice(1, -1))) };
+          } else {
+              // Leaf node
+              return token.replace(/"/g, '');
+          }
+      });
+  }
+
+  const tokens = tokenize(cleanInput);
+  return parseTokens(tokens)[0];
+}
+
+function toNodes(data, startCourse, parentId = null) {
+  const nodes = [];
+  const edges = [];
+
+  // Helper function to add nodes and edges
+  function addNodeAndEdges(label, parent, type = null) {
+    const nodeId = 'node_' + Math.random().toString(36).substr(2, 9);
+    let shape = 'ellipse'; // default shape
+    let color = '#97C2FC'; // default color
+
+    if (type === 'AND' || type === 'OR') {
+        shape = 'diamond'; 
+        color = '#FFFF00'; 
     }
+
+    nodes.push({
+        id: nodeId,
+        label: label,
+        shape: shape,
+        color: color
+    });
+
+    if (parent) {
+        edges.push({ from: parent, to: nodeId });
+    }
+    return nodeId;
+}
+
+  // Check if this is the initial call and create the root node
+  if (parentId === null) {
+
+      // Use startCourse as the label for the root node
+      parentId = addNodeAndEdges(startCourse, null);
+
+      // If the data not none proccess
+      if (data.type && data.type !== 'NONE') {
+          const nodeId = addNodeAndEdges(data.type, parentId, data.type);
+          data.value.forEach(item => {
+              const result = toNodes(item, startCourse, nodeId); // Pass startCourse 4 recursion
+              nodes.push(...result.nodes);
+              edges.push(...result.edges);
+          });
+      }
+  } else if (typeof data === 'object' && data.value) {
+      // Processing non-root AND/OR nodes
+      const nodeId = addNodeAndEdges(data.type, parentId, data.type);
+      data.value.forEach(subItem => {
+          const result = toNodes(subItem, startCourse, nodeId); 
+          nodes.push(...result.nodes);
+          edges.push(...result.edges);
+      });
+  } else if (typeof data === 'string') {
+      // Processing leaf nodes (course codes)
+      addNodeAndEdges(data, parentId);
+  }
+
+  return { nodes, edges };
 }
 
 function buildGraphData(startCourse) {
-    let nodes = [],
-        edges = [];
-    let visited = new Set();
-
-    function traverse(course, parentId, relationship = "AND") {
-        if (visited.has(course)) return;
-        visited.add(course);
-
-        nodes.push({ id: course, label: course, shape: 'box' });
-
-        if (parentId !== null) {
-            edges.push({
-                from: course,
-                to: parentId,
-                dashes: relationship === "OR",
-                arrows: "to",
-            });
-        }
-
-        let prerequisites = parsePrerequisites(courseData[course]);
-        if (prerequisites) {
-            if (Array.isArray(prerequisites)) {
-                prerequisites.forEach((prereq) => {
-                    if (typeof prereq === "string") {
-                        traverse(prereq, course, "OR");
-                    } else if (Array.isArray(prereq)) {
-                        prereq.forEach((subPrereq) =>
-                            traverse(subPrereq, course, "AND")
-                        );
-                    }
-                });
-            } else {
-                traverse(prerequisites, course, "AND");
-            }
-        }
-    }
-
-    traverse(startCourse, null);
-
-    return { nodes, edges };
+  const parsedInput = getPrerequisitesForCourse(startCourse);
+  return toNodes(parsedInput, startCourse);
 }
 
 function drawGraph(startCourse, container) {
     var { nodes, edges } = buildGraphData(startCourse);
 
-    // var container = document.getElementById("network");
     var data = {
         nodes: new vis.DataSet(nodes),
         edges: new vis.DataSet(edges),
@@ -422,5 +501,3 @@ function drawGraph(startCourse, container) {
     };
     new vis.Network(container, data, options);
 }
-
-// Example starting course
