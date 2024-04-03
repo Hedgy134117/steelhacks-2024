@@ -5,6 +5,7 @@ from pprint import pprint
 import api
 import regex
 from categories import Category
+from tqdm import tqdm
 
 
 def main():
@@ -15,20 +16,16 @@ def main():
         json.dump(reqs, f, indent=4)
 
 
-# TODO: add a pretty progress bar :)
 def get_course_category_reqs(category: Category):
     courses = api.get_courses(category)
 
     output = {}
-    for course in courses:
+    for course in tqdm(courses):
         try:
             reqs = get_course_reqs(
                 course["crse_id"], course["effdt"], course["crse_offer_nbr"]
             )
-            if f"{category} " + course["catalog_nbr"] in output:
-                pass
-            else:
-                output[f"{category} " + course["catalog_nbr"]] = str(reqs[0])
+            output[f"{category} " + course["catalog_nbr"]] = str(reqs[0])
         except IndexError:
             # TODO: shouldn't have errors in the first place
             output[f"{category} " + course["catalog_nbr"]] = "MISSING"
